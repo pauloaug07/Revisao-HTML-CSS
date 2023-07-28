@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 3</title>
+    <style>
+        table, td, th, tr {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding-left: 5em;
+            padding-right: 5em;
+            padding-top: 2.5em;
+            padding-bottom: 2.5em;
+            text-align: center;
+        }
+        caption {
+            padding: 5em;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <table>
+            <caption>MESCLAGEM DE CÉLULAS</caption>
+            <tr>
+                <th>A</th>
+                <th colspan="2">B</th>
+            </tr>
+            <tr>
+                <td rowspan="3">C</td>
+                <td>D</td>
+                <td rowspan="2">E</td>
+            </tr>
+            <tr>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td colspan="2">G</td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
